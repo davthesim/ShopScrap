@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: backend
+  datasource:
+    url: jdbc:postgresql://localhost:5432/shopscrap
+    username: shopscrap
+    password: localdev
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
